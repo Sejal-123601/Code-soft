@@ -1,0 +1,57 @@
+body {
+        margin: 0; /* Removes default margin */
+        padding: 0; /* Removes default padding */
+        font-family: Arial, sans-serif;
+        background-image: url('https://th.bing.com/th?id=OIP.sZFiXJfMrSxB4ILkOLsW_gHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2'); /* Path to your background image */
+        background-size: cover; /* Ensures the image covers the entire background */
+        background-position: center; /* Centers the background image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        color: white; /* Sets the text color to white for better contrast */
+    }
+    
+
+
+h1 {
+    text-align: center;
+    color: #848828;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 300px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.movie-item {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(132, 69, 69, 0.1);
+    text-align: center;
+}
+
+.movie-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+

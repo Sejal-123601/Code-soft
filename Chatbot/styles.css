@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://assets-global.website-files.com/62bcc33c3dc7b1c46009dcb0/649e7af2056863b9b41bf3ae_fitness%20app%20(1)-p-1600.png'); 
+    background-size: cover; 
+    background-position: center; 
+    margin: 0;
+    padding: 20px;
+}
+
+.chat-container {
+    width: 400px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat-message {
+    margin: 10px 0;
+}
+
+.bot-message {
+    color: blue;
+}
+
+.user-message {
+    text-align: right;
+    color: green;
+}
+
+#user-input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+#send-button {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background: darkblue;
+}
+
+
