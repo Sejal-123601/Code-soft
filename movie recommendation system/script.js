@@ -1,4 +1,4 @@
-const apiKey = '259f61f3';  // Replace with your OMDb API key
+const apiKey = '259f61f3';  
 const movieGrid = document.getElementById("movieGrid");
 
 async function getRecommendations() {
@@ -20,7 +20,7 @@ async function getRecommendations() {
 }
 
 function displayMovies(movies) {
-    movieGrid.innerHTML = "";  // Clear previous recommendations
+    movieGrid.innerHTML = ""; 
 
     movies.forEach(movie => {
         const movieItem = document.createElement("div");
